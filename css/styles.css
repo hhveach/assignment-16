@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box; }
+
+img {
+  width: 100%;
+  display: block; }
+
+#app-container {
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.main-content {
+  background-image: url("../images/tomato-red-silhouette.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 75%;
+  height: 700px;
+  margin: 0 auto;
+  position: relative; }
+
+.timer {
+  color: #f7ca18;
+  font-size: 85px;
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  right: 40%; }
+
+.inject-text {
+  background-color: white;
+  padding: 5px;
+  width: 100%;
+  opacity: .5;
+  text-align: center;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 72%;
+  font-size: 35px;
+  font-weight: 700; }
+
+.disappear {
+  display: none; }
+
+.complete {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center; }
+
+.complete h1 {
+  font-size: 70px;
+  color: #c8f7c5; }
+
+.box {
+  text-align: center;
+  margin-top: 30px; }
+
+.box a {
+  border-radius: 0;
+  margin-bottom: 20px; }
+
+.text {
+  border: none;
+  text-decoration: none;
+  width: 70%;
+  border-bottom: 2px solid black;
+  padding-bottom: 0;
+  font-size: 20px; }
+
+.btn {
+  width: 12%; }
+
+input:focus {
+  outline: none; }
+
+/*# sourceMappingURL=styles.css.map */
